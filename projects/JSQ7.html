@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  initial-scale=1.0">
+    <title>JSQ7</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form name="Registration" onsubmit="returnformValidation();return false;">
+        <table>
+        <tr>
+         <td align="right"><label for="userid">UserId:</label></td>
+         <td><input type="text" name="userid" size="12"><span id="uidmsg"></span></td>
+        </tr>
+        <tr>
+           <td align="right"> <label for=""password>Password:</label></td>
+         <td><input type="password" name="password" size="12"><span id="passwordmsg"></span></td>
+
+        </tr>
+        <tr>
+           <td align="right"> <label for="name">Name:</label></td>
+            <td><input type="text" name="name" size="12"><span id="namemsg"></span></td>
+
+        </tr>
+         <tr>
+          <td align="right"><label for="address">Address:</label></td>
+          <td><input type="text" name="address"><span id="addmsg"></span></td><br>
+        </tr>
+        <tr>
+          <td align="right"><label for="country">Country:</label></td>
+          <td><select name="country">
+            <option selected="" value="Default">Please select a country:</option>
+            <option>USA</option>
+            <option>India</option>
+            <option>Mexico</option>
+            <option>England</option>
+         </select><span id="countrymsg"></span><br></td>
+        </tr>
+        <tr>
+         <td align="right"><label for="zip">Zip code:</label></td>
+         <td><input type="text" name="zip"><span id="zipmsg"></span><br></td>
+        </tr>
+        <tr>
+         <td align="right"><label for="email">Email:</label></td>
+         <td><input type="email" name="email"><span id="emailmsg"></span><br></td>
+        </tr>
+        <tr>
+         <td align="right"><label for="sex">Sex:</label></td>
+         <td><input type="radio" name="sex" value="Male"><span>Male</span>
+         <input type="radio" name="sex" value="Female"><span>Female</span><span id="gendermsg"></span><br></td>
+        </tr>
+        <tr>
+         <td align="right"><label for="language">Language:</label></td>
+         <td><input type="checkbox" name="language" value="English"><span>English</span>
+         <input type="checkbox" name="language" value="Non English"><span>Non English</span><br></td>
+        </tr>
+        <tr>
+         <td align="right"><label for="desc">About:</label></td>
+         <td><textarea name="desc" id="desc"></textarea><br></td>
+        </tr>
+        <tr>
+         <td><input type="submit" name="submit" value="submit"></td>
+        </tr>
+        </table>
+    </form>
+    <script src="JSQ7.js"></script>
+    
+</body>
+</html>

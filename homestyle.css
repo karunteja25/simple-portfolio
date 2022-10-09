@@ -1,0 +1,122 @@
+body
+{
+    background-image:linear-gradient(to right,rgba(112, 137, 150, 0.753),rgb(0, 255, 149)) ;
+    font-family: cursive;
+}
+
+.navbar
+{
+    text-align: right;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+.navdiv ul
+{
+ display: inline-flex;
+ list-style: none;
+ color :rgb(151, 88, 202)
+}
+.navdiv ul li
+{
+    padding: 10px;
+    text-decoration: none;
+    font-family: cursive;
+    margin-right: 20px;
+}
+.navdiv ul li a
+{
+    text-decoration: none;
+}
+.navdiv >ul >li >a.hover
+{
+    background-color: rgb(98, 98, 238);
+    border-radius: 5px;
+}
+.homediv
+{
+    margin: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 15%;   
+}
+.qimg
+{
+    width:300px;
+    height:300px ;
+    padding : 30px;
+    border-radius: 30%;
+    margin-left: 20px;
+}
+.homediv img
+{
+    margin-left: 50%;
+    width:400px;
+}
+
+.btn1
+{
+    background-color: darkmagenta;
+    border-radius: 5px;
+    color:rgba(0, 255, 255, 0.596);
+}
+.aboutdiv
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 15%;
+    
+}
+.aboutdiv p,h2, .edudiv h2
+{
+    text-align: center;
+    
+}
+#qualification
+{
+    justify-content: center;
+    margin: 70px;
+    font-size: 20px;
+    display: inline-flex;
+}
+.front, .back
+{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width:100%;
+    margin:0 auto;
+ 
+}
+#tab
+{
+  display: inline-flex;
+  justify-content: center;
+  width: 200px;
+  height:200px;
+  border-radius: 10px;
+  margin: 20px;  
+}
+#tab:hover
+{
+    box-shadow: 4px 4px 5px 0 grey;
+}
+#social
+{
+    width:60px;height:60px;border-radius:10px;
+}
+#social:hover
+{
+    box-shadow: 4px 4px 5px 0 grey;
+}
+.testimonial div:hover
+{
+    box-shadow: 4px 4px 5px 0 grey;
+}
+
+
