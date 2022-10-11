@@ -3,6 +3,15 @@ body
     background-image:linear-gradient(to right,rgba(112, 137, 150, 0.753),rgb(0, 255, 149)) ;
     font-family: cursive;
 }
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
 
 .navbar
 {
